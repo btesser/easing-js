@@ -1,13 +1,27 @@
 {
-    "name": "ezease"
-  , "description": "Generic set of easing functions written in typescript"
-  , "version": "0.5.4"
-  , "homepage": "https://github.com/danro/easing-js"
-  , "authors": ["Ben Tesser <btesser@gmail.com>", "Dan Rogers <dan@danro.net>"]
-  , "keywords": ["animation", "easing", "tween"]
-  , "main": "./easing.js"
-  , "repository": {
-      "type": "git"
-    , "url": "https://github.com/danro/easing-js.git"
+  "name": "ezease",
+  "description": "Generic set of easing functions written in typescript",
+  "version": "0.5.4",
+  "homepage": "https://github.com/danro/easing-js",
+  "authors": [
+    "Ben Tesser <btesser@gmail.com>",
+    "Dan Rogers <dan@danro.net>"
+  ],
+  "keywords": [
+    "animation",
+    "easing",
+    "tween"
+  ],
+  "main": "./ezease.js",
+  "types": "./lib/ezease.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btesser/ezease.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2"
   }
 }

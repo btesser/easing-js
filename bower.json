@@ -1,15 +1,16 @@
 {
-  "name": "easing",
-  "version": "0.5.4",
-  "description": "Generic set of easing functions with AMD support",
+  "name": "ezease",
+  "version": "0.5.5",
+  "description": "Easing functions written in typescript",
   "authors": [
+    "Ben Tesser <btesser@gmail.com>",
     "Dan Rogers <dan@danro.net>"
   ],
   "license": "MIT",
   "keywords": ["animation", "easing", "tween"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/danro/easing-js.git"
+    "url": "git://github.com/btesser/easing-js.git"
   },
   "ignore": [
     "node_modules"

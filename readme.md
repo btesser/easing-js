@@ -1,11 +1,19 @@
-# easing.js
+# ezease.js
 
+Migrated easing-js library to typescript and added to npm.
+
+See https://github.com/danro/easing-js for the original library
 Generic set of easing functions with AMD support. Examples:
+```javascript
+import { swingFromTo } from 'ezease';
 
-  * [Morpheus](https://github.com/ded/morpheus) `morpheus.easings = require('easing');`
-  * [jQuery](http://jquery.com) `$.extend($.easing, window.easing);`
-
-
+swingFromTo(.6);
+// OR
+import * as ezease from 'ezease';
+// OR
+import ezease from 'ezease';
+ezease.easeTo(.5);
+```
 ## Easing Shortcuts
 
     swingFromTo
