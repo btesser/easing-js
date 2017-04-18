@@ -1,8 +1,8 @@
 {
   "name": "ezease",
   "description": "Generic set of easing functions written in typescript",
-  "version": "0.5.4",
-  "homepage": "https://github.com/danro/easing-js",
+  "version": "0.5.5",
+  "homepage": "https://github.com/btesser/ezease",
   "authors": [
     "Ben Tesser <btesser@gmail.com>",
     "Dan Rogers <dan@danro.net>"
